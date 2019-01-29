@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         StickyListHeadersListView stickyList = (StickyListHeadersListView) findViewById(R.id.list);
-        MyAdapter adapter = new MyAdapter(this);
+        TestBaseAdapter adapter = new TestBaseAdapter(this);
         stickyList.setAdapter(adapter);
     }
 
